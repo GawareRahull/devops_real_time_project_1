@@ -41,7 +41,7 @@
     <br>
     <br>
     <h2> App Status  : Up & Running !!! </h2>
-    <h2> Image       : mahesh8887/IMAGE_NAME </h2>
+    <h2> Image       : gawarerahul77745/IMAGE_NAME </h2>
     <br>
     <div class="color-box blue"></div>
     <div class="color-box red"></div>
