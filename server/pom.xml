@@ -14,12 +14,8 @@
   <packaging>jar</packaging>
   <name>Server</name>
   <description>Logic.</description>
-
-  #<build>
-   # <finalName>${project.artifactId}</finalName>
-  #</build>
   <build>
-    <finalName>${project.artifactId}</finalName>
+   <finalName>${project.artifactId}</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
