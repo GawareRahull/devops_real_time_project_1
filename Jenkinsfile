@@ -53,8 +53,8 @@ pipeline {
             }    
             steps {
                 sh 'ansible-playbook playbooks/push_dockerhub.yml \
-                    --extra-vars "JOB_NAME=$JOB_NAME" \
-                    --extra-vars "BUILD_ID=$BUILD_ID" \
+                    --extra-vars "job_name=$JOB_NAME" \
+                    --extra-vars "build_id=$BUILD_ID" \
                     --extra-vars "dockerhub_user=$dockerhub_user" \
                     --extra-vars "dockerhub_pass=$dockerhub_pass"'              
             }
@@ -62,7 +62,7 @@ pipeline {
         stage('DEPLOYMENT ON EKS') {
             steps {
                 sh 'ansible-playbook playbooks/create_pod_on_eks.yml \
-                    --extra-vars "JOB_NAME=$JOB_NAME"'
+                    --extra-vars "job_name=$JOB_NAME"'
             }            
         }          
     }
