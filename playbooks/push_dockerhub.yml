@@ -7,8 +7,8 @@
       shell: |
         cd /opt/docker
         docker build -t {{ JOB_NAME | lower }}:v1.{{ BUILD_ID }} .
-        docker tag {{ JOB_NAME | lower }}:v1.{{ build_id }} gawarerahul77745/{{ JOB_NAME }}:v1.{{ BUILD_ID }}
-        docker tag {{ JOB_NAME | lower }}:v1.{{ build_id }} gawarerahul77745/{{ JOB_NAME }}:latest
+        docker tag {{ JOB_NAME | lower }}:v1.{{ BUILD_ID }} gawarerahul77745/{{ JOB_NAME }}:v1.{{ BUILD_ID }}
+        docker tag {{ JOB_NAME | lower }}:v1.{{ BUILD_ID }} gawarerahul77745/{{ JOB_NAME }}:latest
 
     - name: LOGIN DOCKERHUB & PUSH IMAGE ON REGISTRY
       shell: |        
