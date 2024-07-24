@@ -35,8 +35,9 @@
     </style>
   </head>
   <body>
-    <h1> welcome to DevOps community and Hope you found this useful Follow me for projects and more content on DevOps. Thank you🙏 </h1>
-    <h2> DEVOPS_REAL_TIME_PROJECT </h2>
+    <h1> welcome to DevOps community and Hope you found this useful Follow me for projects and more content on DevOps.  </h1>
+    <h2> Thank you🙏 </h2>
+    <h3> DEVOPS_REAL_TIME_PROJECT </h3>
 
     <br>
     <br>
