@@ -36,8 +36,8 @@
   </head>
   <body>
     <h1> welcome to DevOps community and Hope you found this useful Follow me for projects and more content on DevOps.  </h1>
-    <h2> Thank you for coming to this site </h2>
-    <h3> DEVOPS_REAL_TIME_PROJECT </h3>
+    <h2> This is my first DevOps project  </h2>
+    <h3> Thank you for coming to this site </h3>
 
     <br>
     <br>
